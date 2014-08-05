@@ -1,364 +1,318 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Font Awesome, the iconic font and CSS framework">
+  <meta name="author" content="Dave Gandy">
+  <link rel="shortcut icon" href="./assets/ico/favicon.ico">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Harcourts API : Harcourts api documentation">
+  <title>Font Awesome, the iconic font and CSS toolkit</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <link rel="stylesheet" href="./assets/css/pygments.css">
+  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.css">
 
-    <title>Harcourts API</title>
-  </head>
+  <!--[if lt IE 9]>
+    <script src="./assets/js/html5shiv.js"></script>
+    <script src="./assets/js/respond.min.js"></script>
+  <![endif]-->
 
-  <body>
+  <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/vasileionita/api.harcourts.github.io">View on GitHub</a>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
 
-          <h1 id="project_title">Harcourts API</h1>
-          <h2 id="project_tagline">Harcourts api documentation</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/vasileionita/api.harcourts.github.io/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/vasileionita/api.harcourts.github.io/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-harcourts-api" class="anchor" href="#welcome-to-harcourts-api"><span class="octicon octicon-link"></span></a>Welcome to Harcourts API.</h3>
-
-<h3>
-<a name="address" class="anchor" href="#address"><span class="octicon octicon-link"></span></a>Address</h3>
-
-<p></p><h3>
-<a name="address-1" class="anchor" href="#address-1"><span class="octicon octicon-link"></span></a>Address</h3>
-    <div>An address</div>
-    <div>
-        <h4>
-<a name="address1" class="anchor" href="#address1"><span class="octicon octicon-link"></span></a>Address1</h4>
-        <div>Address line 1.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="address2" class="anchor" href="#address2"><span class="octicon octicon-link"></span></a>Address2</h4>
-        <div>Address line 2.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="addresssuburb" class="anchor" href="#addresssuburb"><span class="octicon octicon-link"></span></a>AddressSuburb</h4>
-        <div>Suburb name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="addresscity" class="anchor" href="#addresscity"><span class="octicon octicon-link"></span></a>AddressCity</h4>
-        <div>City name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="addressgarden" class="anchor" href="#addressgarden"><span class="octicon octicon-link"></span></a>AddressGarden</h4>
-        <div>Garden name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="addressregion" class="anchor" href="#addressregion"><span class="octicon octicon-link"></span></a>AddressRegion</h4>
-        <div>Region name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="addresspostcode" class="anchor" href="#addresspostcode"><span class="octicon octicon-link"></span></a>AddressPostCode</h4>
-        <div>Address post code.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="addresscountry" class="anchor" href="#addresscountry"><span class="octicon octicon-link"></span></a>AddressCountry</h4>
-        <div>Country.</div>
-        <div>Data type: Country</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdress1" class="anchor" href="#postaladdress1"><span class="octicon octicon-link"></span></a>PostalAddress1</h4>
-        <div>Postal address line 1.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdress2" class="anchor" href="#postaladdress2"><span class="octicon octicon-link"></span></a>PostalAddress2</h4>
-        <div>Postal address line 2.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdresssuburb" class="anchor" href="#postaladdresssuburb"><span class="octicon octicon-link"></span></a>PostalAddressSuburb</h4>
-        <div>Postal address suburb name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdresscity" class="anchor" href="#postaladdresscity"><span class="octicon octicon-link"></span></a>PostalAddressCity</h4>
-        <div>Postal address city name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdressgarden" class="anchor" href="#postaladdressgarden"><span class="octicon octicon-link"></span></a>PostalAddressGarden</h4>
-        <div>Postal address garden name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdressregion" class="anchor" href="#postaladdressregion"><span class="octicon octicon-link"></span></a>PostalAddressRegion</h4>
-        <div>Postal address region name.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdresspostcode" class="anchor" href="#postaladdresspostcode"><span class="octicon octicon-link"></span></a>PostalAddressPostCode</h4>
-        <div>Postal address post code.</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="postaladdresscountry" class="anchor" href="#postaladdresscountry"><span class="octicon octicon-link"></span></a>PostalAddressCountry</h4>
-        <div>Postal address country.</div>
-        <div>Data type: Country</div>
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+<script type="text/javascript">
+  (function(){
+    var bsa = document.createElement('script');
+    bsa.type = 'text/javascript';
+    bsa.async = true;
+    bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+    (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+  })();
+</script>
+<div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
+  <div class="navbar navbar-inverse navbar-static-top hidden-print">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars fa-lg"></i>
+      </button>
+      <a class="navbar-brand" href="./"><i class="fa fa-flag"></i> Font Awesome</a>
     </div>
 
-    <a name="Appraisal"></a>
-    <h3>
-<a name="appraisal" class="anchor" href="#appraisal"><span class="octicon octicon-link"></span></a>Appraisal</h3>
-    <div>Appraisal.</div>
-    <div>
-        <h4>
-<a name="appraisaldatenonutc" class="anchor" href="#appraisaldatenonutc"><span class="octicon octicon-link"></span></a>AppraisalDateNonUtc</h4>
-        <div>The appraisal date.<br>            Should only be the date (no time component).</div>
-        <div>Data type: DateTime</div>
-        <div>e.g. 2012-03-01</div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="hidden-sm  active"><a href="./">Home</a></li>
+        <li class="hidden-sm">
+          <a href="./whats-new/">What's New</a>
+        </li>
+        <li class="hidden-xs hidden-md hidden-lg">
+          <a href="./whats-new/">New</a>
+        </li>
+        <li><a href="./get-started/">Get Started</a></li>
+        <li class="dropdown-split-left"><a href="./icons/">Icons</a></li>
+        <li class="dropdown dropdown-split-right hidden-xs">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="./icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; Icons</a></li>
+            <li class="divider"></li>
+            <li><a href="./icons/#new"><i class="fa fa-cube fa-fw"></i>&nbsp; New Icons in 4.1</a></li>
+            <li><a href="./icons/#web-application"><i class="fa fa-camera-retro fa-fw"></i>&nbsp; Web Application Icons</a></li>
+            <li><a href="./icons/#file-type"><i class="fa fa-file-image-o fa-fw"></i>&nbsp; File Type Icons</a></li>
+            <li><a href="./icons/#spinner"><i class="fa fa-spinner fa-fw"></i>&nbsp; Spinner Icons</a></li>
+            <li><a href="./icons/#form-control"><i class="fa fa-check-square fa-fw"></i>&nbsp; Form Control Icons</a></li>
+            <li><a href="./icons/#currency"><i class="fa fa-won fa-fw"></i>&nbsp; Currency Icons</a></li>
+            <li><a href="./icons/#text-editor"><i class="fa fa-file-text-o fa-fw"></i>&nbsp; Text Editor Icons</a></li>
+            <li><a href="./icons/#directional"><i class="fa fa-hand-o-right fa-fw"></i>&nbsp; Directional Icons</a></li>
+            <li><a href="./icons/#video-player"><i class="fa fa-play-circle fa-fw"></i>&nbsp; Video Player Icons</a></li>
+            <li><a href="./icons/#brand"><i class="fa fa-github fa-fw"></i>&nbsp; Brand Icons</a></li>
+            <li><a href="./icons/#medical"><i class="fa fa-medkit fa-fw"></i>&nbsp; Medical Icons</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-split-left"><a href="./examples/">Examples</a></li>
+        <li class="dropdown dropdown-split-right hidden-xs">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="./examples/">Examples</a></li>
+            <li class="divider"></li>
+            <li><a href="./examples/#basic">Basic Icons</a></li>
+            <li><a href="./examples/#larger">Larger Icons</a></li>
+            <li><a href="./examples/#fixed-width">Fixed Width Icons</a></li>
+            <li><a href="./examples/#list">List Icons</a></li>
+            <li><a href="./examples/#bordered-pulled">Bordered & Pulled Icons</a></li>
+            <li><a href="./examples/#spinning">Spinning Icons</a></li>
+            <li><a href="./examples/#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
+            <li><a href="./examples/#stacked">Stacked Icons</a></li>
+            <li><a href="./examples/#bootstrap">Bootstrap 3 Examples</a></li>
+            <li><a href="./examples/#custom">Custom CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="./community/">Community</a></li>
+        <li><a href="./license/">License</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://blog.fontawesome.io">Blog</a></li>
+      </ul>
     </div>
-    <div>
-        <h4>
-<a name="bathrooms" class="anchor" href="#bathrooms"><span class="octicon octicon-link"></span></a>Bathrooms</h4>
-        <div>The number of bathrooms.</div>
-        <div>Data type: Nullable int</div>
-        <div>e.g. 2</div>
-    </div>
-    <div>
-        <h4>
-<a name="bedrooms" class="anchor" href="#bedrooms"><span class="octicon octicon-link"></span></a>Bedrooms</h4>
-        <div>The number of bedrooms.</div>
-        <div>Data type: Nullable int</div>
-        <div>e.g. 4</div>
-    </div>
-    <div>
-        <h4>
-<a name="cma" class="anchor" href="#cma"><span class="octicon octicon-link"></span></a>Cma</h4>
-        <div>The comparative market analysis.</div>
-        <div>Data type: Cma</div>
-    </div>
-    <div>
-        <h4>
-<a name="contacturis" class="anchor" href="#contacturis"><span class="octicon octicon-link"></span></a>ContactUris</h4>
-        <div>The URIs of the contacts for the appraisal.</div>
-        <div>Data type: Uri list</div>
-    </div>
-    <div>
-        <h4>
-<a name="createdatetime" class="anchor" href="#createdatetime"><span class="octicon octicon-link"></span></a>CreateDateTime</h4>
-        <div>The creation date time in UTC.<br>            This is updated by the system. Posted values ignored.</div>
-        <div>Data type: DateTime</div>
-        <div>e.g. 2012-03-01 10:11:12</div>
-    </div>
-    <div>
-        <h4>
-<a name="createdbystaffuri" class="anchor" href="#createdbystaffuri"><span class="octicon octicon-link"></span></a>CreatedByStaffUri</h4>
-        <div>The uri to the staff member that created the item.</div>
-        <div>Data type: Uri</div>
-        <div>e.g. /Staff/4312</div>
-    </div>
-    <div>
-        <h4>
-<a name="deletereason" class="anchor" href="#deletereason"><span class="octicon octicon-link"></span></a>DeleteReason</h4>
-        <div>The reason for deletion of this record.<br>            A non null value will mark this item as logically deleted.</div>
-        <div>Data type: string</div>
-        <div>e.g. No longer required.</div>
-    </div>
-    <div>
-        <h4>
-<a name="displayaddress" class="anchor" href="#displayaddress"><span class="octicon octicon-link"></span></a>DisplayAddress</h4>
-        <div>The display address.</div>
-        <div>Data type: string</div>
-        <div>e.g. 5/123 High Street, Primrose Hill, Sydney, 8001</div>
-    </div>
-    <div>
-        <h4>
-<a name="floornumber" class="anchor" href="#floornumber"><span class="octicon octicon-link"></span></a>FloorNumber</h4>
-        <div>The floor number.</div>
-        <div>Data type: string</div>
-        <div>e.g. 10</div>
-    </div>
-    <div>
-        <h4>
-<a name="garden" class="anchor" href="#garden"><span class="octicon octicon-link"></span></a>Garden</h4>
-        <div>The name of the garden.</div>
-        <div>Data type: string</div>
-        <div>e.g. Belsize Gardens</div>
-    </div>
-    <div>
-        <h4>
-<a name="isactive" class="anchor" href="#isactive"><span class="octicon octicon-link"></span></a>IsActive</h4>
-        <div>Whether the appraisal is active or not. <br>            This is updated by the system. Posted values ignored.</div>
-        <div>Data type: Boolean</div>
-        <div>e.g. true</div>
-    </div>
-    <div>
-        <h4>
-<a name="landarea" class="anchor" href="#landarea"><span class="octicon octicon-link"></span></a>LandArea</h4>
-        <div>The land area in square metres.</div>
-        <div>Data type: Nullable decimal</div>
-        <div>e.g. 765</div>
-    </div>
-    <div>
-        <h4>
-<a name="latitude" class="anchor" href="#latitude"><span class="octicon octicon-link"></span></a>Latitude</h4>
-        <div>The latitude coordinate of the property.</div>
-        <div>Data type: Nullable decimal</div>
-        <div>e.g. -24.60706913770968</div>
-    </div>
-    <div>
-        <h4>
-<a name="listingtypeuri" class="anchor" href="#listingtypeuri"><span class="octicon octicon-link"></span></a>ListingTypeUri</h4>
-        <div>The listing type uri.</div>
-        <div>Data type: Uri</div>
-        <div>e.g. /ListingType/1</div>
-    </div>
-    <div>
-        <h4>
-<a name="listinguri" class="anchor" href="#listinguri"><span class="octicon octicon-link"></span></a>ListingUri</h4>
-        <div>The uri to the listing.<br>            When an appraisal has been converted to a listing this is the uri to the listing.</div>
-        <div>Data type: Uri</div>
-        <div>e.g. /Listing/832165</div>
-    </div>
-    <div>
-        <h4>
-<a name="locationuri" class="anchor" href="#locationuri"><span class="octicon octicon-link"></span></a>LocationUri</h4>
-        <div>The uri to the location.</div>
-        <div>Data type: Uri</div>
-        <div>e.g. /Location/13023</div>
-    </div>
-    <div>
-        <h4>
-<a name="longitude" class="anchor" href="#longitude"><span class="octicon octicon-link"></span></a>Longitude</h4>
-        <div>The longitude coordinate of the property.</div>
-        <div>Data type: Nullable decimal</div>
-        <div>e.g. 133.505859375</div>
-    </div>
-    <div>
-        <h4>
-<a name="mapzoomlevel" class="anchor" href="#mapzoomlevel"><span class="octicon octicon-link"></span></a>MapZoomLevel</h4>
-        <div>The zoom level to display them map.</div>
-        <div>Data type: Nullable int</div>
-        <div>e.g. 15</div>
-    </div>
-    <div>
-        <h4>
-<a name="organisationalunituri" class="anchor" href="#organisationalunituri"><span class="octicon octicon-link"></span></a>OrganisationalUnitUri</h4>
-        <div>The uri to the organisational unit (office) of the user that created the item.</div>
-        <div>Data type: Uri</div>
-        <div>e.g. /OrganisationalUnit/865</div>
-    </div>
-    <div>
-        <h4>
-<a name="postcode" class="anchor" href="#postcode"><span class="octicon octicon-link"></span></a>PostCode</h4>
-        <div>The post code.</div>
-        <div>Data type: string</div>
-        <div>e.g. 8052</div>
-    </div>
-    <div>
-        <h4>
-<a name="propertytypeuri" class="anchor" href="#propertytypeuri"><span class="octicon octicon-link"></span></a>PropertyTypeUri</h4>
-        <div>The property type uri.</div>
-        <div>Data type: Uri</div>
-        <div>e.g. /PropertyType/17</div>
-    </div>
-    <div>
-        <h4>
-<a name="recommendations" class="anchor" href="#recommendations"><span class="octicon octicon-link"></span></a>Recommendations</h4>
-        <div>Recommendations.</div>
-        <div>Data type: string</div>
-        <div>e.g. Mow the lawns.</div>
-    </div>
-    <div>
-        <h4>
-<a name="staffuris" class="anchor" href="#staffuris"><span class="octicon octicon-link"></span></a>StaffUris</h4>
-        <div>The URIs of the sales consultants for the appraisal.<br>            The first staff uri is the primary sales consultant.</div>
-        <div>Data type: Uri list</div>
-    </div>
-    <div>
-        <h4>
-<a name="streetname" class="anchor" href="#streetname"><span class="octicon octicon-link"></span></a>StreetName</h4>
-        <div>The street name.</div>
-        <div>Data type: string</div>
-        <div>e.g. High Street</div>
-    </div>
-    <div>
-        <h4>
-<a name="streetnumber" class="anchor" href="#streetnumber"><span class="octicon octicon-link"></span></a>StreetNumber</h4>
-        <div>The street number.</div>
-        <div>Data type: string</div>
-        <div>e.g. 43</div>
-    </div>
-    <div>
-        <h4>
-<a name="summary" class="anchor" href="#summary"><span class="octicon octicon-link"></span></a>Summary</h4>
-        <div>The summary</div>
-        <div>Data type: string</div>
-    </div>
-    <div>
-        <h4>
-<a name="unitnumber" class="anchor" href="#unitnumber"><span class="octicon octicon-link"></span></a>UnitNumber</h4>
-        <div>The street address unit number.</div>
-        <div>Data type: string</div>
-        <div>e.g. 3</div>
-    </div>
-    <div>
-        <h4>
-<a name="updatedatetime" class="anchor" href="#updatedatetime"><span class="octicon octicon-link"></span></a>UpdateDateTime</h4>
-        <div>The date and time in UTC that this item was updated.<br>            This is updated by the system. Posted values ignored.</div>
-        <div>Data type: Date time</div>
-        <div>e.g. 2012-03-01 10:11:12</div>
-    </div>
-    <div>
-        <h4>
-<a name="updatedbystaffuri" class="anchor" href="#updatedbystaffuri"><span class="octicon octicon-link"></span></a>UpdatedByStaffUri</h4>
-        <div>The Uri of the staff member that updated the item.<br>            This is updated by the system. Posted values ignored.</div>
-        <div>Data type: Uri</div>
-        <div>e.g. /Staff/53326</div>
-    </div>
-      </section>
+  </div>
+</div>
+
+
+  <div class="jumbotron jumbotron-carousel hidden-print">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-8 text-center">
+        <h1>Font Awesome</h1>
+        <p>The iconic font and CSS toolkit</p>
+        <div class="actions">
+          <a class="btn btn-default btn-lg" href="./assets/font-awesome-4.1.0.zip"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+            <i class="fa fa-download fa-lg"></i>&nbsp;&nbsp;
+            Download
+          </a>
+        </div>
+        <div class="shameless-self-promotion">
+          Version 4.1.0 &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          <a href="https://github.com/FortAwesome/Font-Awesome"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
+            GitHub Project</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          <a href="./3.2.1">Old 3.2.1 Docs</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          Created by <a href="http://twitter.com/davegandy">Dave Gandy</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div id="icon-carousel" class="carousel slide">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item"><div><i class="fa fa-flag"></i></div></div>
+            <div class="item"><div><i class="fa fa-send-o"></i></div></div>
+            <div class="item"><div><i class="fa fa-cube"></i></div></div>
+            <div class="item"><div><i class="fa fa-file-picture-o"></i></div></div>
+            <div class="item"><div><i class="fa fa-life-ring"></i></div></div>
+            <div class="item"><div><i class="fa fa-envelope"></i></div></div>
+            <div class="item"><div><i class="fa fa-book"></i></div></div>
+            <div class="item"><div><i class="fa fa-fighter-jet"></i></div></div>
+            <div class="item"><div><i class="fa fa-beer"></i></div></div>
+            <div class="item"><div><i class="fa fa-heart-o"></i></div></div>
+            <div class="item"><div><i class="fa fa-thumbs-o-up"></i></div></div>
+            <div class="item"><div><i class="fa fa-pied-piper-alt"></i></div></div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#icon-carousel" data-slide="prev"
+             onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
+            <i class="fa fa-arrow-circle-left"></i></a>
+          <a class="carousel-control right" href="#icon-carousel" data-slide="next"
+             onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Next']);">
+            <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Harcourts API maintained by <a href="https://github.com/vasileionita">vasileionita</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+  </div>
+</div>
+
+<div id="social-buttons" class="hidden-print">
+  <div class="container">
+    <ul class="list-inline">
+      <li>
+        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+      </li>
+      <li>
+        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+      </li>
+      <li class="follow-btn">
+        <a href="https://twitter.com/fontawesome" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @fontawesome</a>
+      </li>
+      <li class="tweet-btn hidden-phone">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://fontawesome.io" data-text="Font Awesome, the iconic font and CSS framework" data-counturl="http://fortawesome.github.com/Font-Awesome/" data-count="horizontal" data-via="fontawesome" data-related="davegandy:Creator of Font Awesome">Tweet</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="container">
+  
+  <section class="hidden-print">
+  <div class="stripe-ad">
+    <script type="text/javascript" src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=fontawesome" id="_fusionads_js"></script>
 
     
+  <p class="lead">
+    Font Awesome gives you scalable vector icons that can instantly be customized &mdash; size, color, drop shadow,
+    and anything that can be done with the power of CSS.
+  </p>
+  
+  </div>
+</section>
 
-  </body>
+
+  <section id="why" class="feature-list">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-flag"></i> One Font, 439 Icons</h4>
+      In a single collection, Font Awesome is a pictographic language of web-related actions.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-ban"></i> No JavaScript Required</h4>
+      Fewer compatibility concerns because Font Awesome doesn't require JavaScript.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-arrows-alt"></i> Infinite Scalability</h4>
+      Scalable vector graphics means every icon looks awesome at any size.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-microphone"></i> Free, as in Speech</h4>
+      Font Awesome is completely free for commercial use. Check out the <a href="./license/">license</a>.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-pencil"></i> CSS Control</h4>
+      Easily style icon color, size, shadow, and anything that's possible with CSS.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-eye"></i> Perfect on Retina Displays</h4>
+      Font Awesome icons are vectors, which mean they're gorgeous on high-resolution displays.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-gamepad"></i> Plays Well with Others</h4>
+      Originally designed for <a href="http://getbootstrap.com">Bootstrap</a>, Font Awesome works great with all frameworks.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-desktop"></i> Desktop Friendly</h4>
+      To use on the desktop or for a complete set of vectors,
+      check out the <a href="./cheatsheet/">cheatsheet</a>.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-search"></i> Screen Reader Compatible</h4>
+      Font Awesome won't trip up screen readers, unlike other icon fonts.
+    </div>
+  </div>
+</section>
+
+  <section id="thanks-to">
+  <h2 class="page-header">Thanks To</h2>
+  <div class="row">
+    <div class="col-md-4 col-sm-4">
+      <p>
+        Thanks to <a href="https://twitter.com/robmadole/">@robmadole</a> and
+        <a href="https://twitter.com/supercodepoet/">@supercodepoet</a> for icon design
+        review, advice, some Jekyll help, and being all around badass coders.
+      </p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <p>
+        HUGE thanks to <a href="https://twitter.com/gtagliala">@gtagliala</a> for doing such a fantastic job managing
+        pull requests and issues on the Font Awesome
+        <a href="https://github.com/FortAwesome/Font-Awesome">GitHub project</a>.
+      </p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <p>
+        Thanks to <a href="http://maxcdn.com"><i class="fa fa-maxcdn">&nbsp;</i>MaxCDN</a> for providing the excellent
+        <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN</a>, the fastest and easiest way to
+        <a href="./get-started/#bootstrapcdn">get started</a> with Font Awesome.
+      </p>
+    </div>
+  </div>
+</section>
+
+</div>
+
+</div>
+<footer id="footer" class="footer hidden-print">
+  <div class="container text-center">
+    <div id="bsap_1298241" class="bsarocks bsap_b1146e3f9fa32a794fc6d2c7be47ece8"></div>
+    <div>
+      <i class="fa fa-flag"></i> Font Awesome 4.1.0
+      <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
+      Created by <a href="http://twitter.com/davegandy">Dave Gandy</a>
+    </div>
+    <div>
+      Font Awesome licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>
+      <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
+      Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>
+      <span class="hide-xs hide-sm">&middot;</span><br class="hide-md hide-lg">
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+    </div>
+    <div>
+      Thanks to <a href="http://maxcdn.com"><i class="fa fa-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN for Font Awesome</a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/FortAwesome/Font-Awesome">GitHub Project</a> &middot;
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues">Issues</a> &middot;
+      <a href="./3.2.1">Old 3.2.1 Docs</a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="./assets/js/site.js"></script>
+
+</body>
 </html>
