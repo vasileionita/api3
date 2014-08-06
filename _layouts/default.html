@@ -1,57 +1,27 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Harcourts API : Harcourts api documentation">
+  {% include head.html %}
 
-    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/stylesheet.css">
+    <body id="page-top" class="index">
 
-    <title>Harcourts API</title>
-  </head>
+    {% include header.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include contact.html %}
 
-  <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a id="forkme_banner" href="https://github.com/vasileionita/api.harcourts.github.io">View on GitHub</a>-->
-          <ul class="project_tagline">
-            <li><a href="./">Home</a></li>
-            <li>
-              <a href="./whats-new/">What's New</a>
-            </li>
-            <li>
-              <a href="./whats-new/">New</a>
-            </li>
-            <li><a href="./testPage">Get Started</a></li>
-          </ul>
+    <!--
+      <div class="page-content">
+        <div class="wrap">
+        {{ content }}
+        </div>
+      </div>
+    -->
 
-          <h1 id="project_title">Harcourts API</h1>
-          <h2 id="project_tagline">Harcourts api documentation</h2>
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/vasileionita/api.harcourts.github.io/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/vasileionita/api.harcourts.github.io/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-<body{% if page.wide_layout %} class="wide"{% endif %}>
-    </div>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Harcourts API maintained by <a href="https://github.com/vasileionita">vasileionita</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+    </body>
 </html>
